@@ -1,0 +1,140 @@
+{
+  "stickers" : [
+    {
+      "filename" : "BABY BOTTLE.sticker"
+    },
+    {
+      "filename" : "BEER MUG.sticker"
+    },
+    {
+      "filename" : "BEER MUGS CLINKING.sticker"
+    },
+    {
+      "filename" : "BENTO BOX.sticker"
+    },
+    {
+      "filename" : "BIRTHDAY CAKE.sticker"
+    },
+    {
+      "filename" : "BREAD.sticker"
+    },
+    {
+      "filename" : "CANDY.sticker"
+    },
+    {
+      "filename" : "CHOCOLATE BAR.sticker"
+    },
+    {
+      "filename" : "COCKTAIL GLASS.sticker"
+    },
+    {
+      "filename" : "COOKED RICE.sticker"
+    },
+    {
+      "filename" : "COOKIE.sticker"
+    },
+    {
+      "filename" : "COOKING.sticker"
+    },
+    {
+      "filename" : "CURRY AND RICE.sticker"
+    },
+    {
+      "filename" : "CUSTARD.sticker"
+    },
+    {
+      "filename" : "DANGO.sticker"
+    },
+    {
+      "filename" : "DOUGHNUT.sticker"
+    },
+    {
+      "filename" : "FISH CAKE WITH SWIRL DESIGN.sticker"
+    },
+    {
+      "filename" : "FORK AND KNIFE.sticker"
+    },
+    {
+      "filename" : "FRENCH FRIES.sticker"
+    },
+    {
+      "filename" : "FRIED SHRIMP.sticker"
+    },
+    {
+      "filename" : "HAMBURGER.sticker"
+    },
+    {
+      "filename" : "HONEY POT.sticker"
+    },
+    {
+      "filename" : "HOT BEVERAGE.sticker"
+    },
+    {
+      "filename" : "ICE CREAM.sticker"
+    },
+    {
+      "filename" : "LOLLIPOP.sticker"
+    },
+    {
+      "filename" : "MEAT ON BONE.sticker"
+    },
+    {
+      "filename" : "ODEN.sticker"
+    },
+    {
+      "filename" : "POT OF FOOD.sticker"
+    },
+    {
+      "filename" : "POULTRY LEG.sticker"
+    },
+    {
+      "filename" : "RICE BALL.sticker"
+    },
+    {
+      "filename" : "RICE CRACKER.sticker"
+    },
+    {
+      "filename" : "ROASTED SWEET POTATO.sticker"
+    },
+    {
+      "filename" : "SAKE BOTTLE AND CUP.sticker"
+    },
+    {
+      "filename" : "SHAVED ICE.sticker"
+    },
+    {
+      "filename" : "SHORTCAKE.sticker"
+    },
+    {
+      "filename" : "SLICE OF PIZZA.sticker"
+    },
+    {
+      "filename" : "SOFT ICE CREAM.sticker"
+    },
+    {
+      "filename" : "SPAGHETTI.sticker"
+    },
+    {
+      "filename" : "STEAMING BOWL.sticker"
+    },
+    {
+      "filename" : "SUSHI.sticker"
+    },
+    {
+      "filename" : "TEACUP WITHOUT HANDLE.sticker"
+    },
+    {
+      "filename" : "TROPICAL DRINK.sticker"
+    },
+    {
+      "filename" : "WINE GLASS.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "large"
+  }
+}

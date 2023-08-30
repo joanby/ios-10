@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Whats_The_Weather" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TjU-wz-1h1" userLabel="TextContainer">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="90ºC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="ztC-eY-ABv">
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="150"/>
+                                        <color key="textColor" red="0.99464348280000003" green="1" blue="0.99119501030000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Palma de Mallorca (Islas Baleares)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="Eqb-qq-0lr">
+                                        <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="100"/>
+                                        <color key="textColor" red="0.99464348280000003" green="1" blue="0.99119501030000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="60"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.30633185915515387" green="0.11615180179833665" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ztC-eY-ABv" firstAttribute="centerX" secondItem="TjU-wz-1h1" secondAttribute="centerX" id="ANF-Jn-HJb"/>
+                                    <constraint firstItem="Eqb-qq-0lr" firstAttribute="centerX" secondItem="TjU-wz-1h1" secondAttribute="centerX" id="FD1-HO-sOK"/>
+                                    <constraint firstItem="ztC-eY-ABv" firstAttribute="top" secondItem="Eqb-qq-0lr" secondAttribute="bottom" constant="20" id="InN-Tv-B0Z"/>
+                                    <constraint firstItem="Eqb-qq-0lr" firstAttribute="top" secondItem="TjU-wz-1h1" secondAttribute="topMargin" constant="16" id="ZBw-MO-N4c"/>
+                                    <constraint firstItem="Eqb-qq-0lr" firstAttribute="width" secondItem="TjU-wz-1h1" secondAttribute="width" multiplier="0.9" id="tBb-2n-akq"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud_sm" translatesAutoresizingMaskIntoConstraints="NO" id="0Uf-K1-1T7"/>
+                        </subviews>
+                        <color key="backgroundColor" red="0.33809662256566531" green="0.52476002467057514" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="TjU-wz-1h1" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="31W-fB-8fE"/>
+                            <constraint firstItem="0Uf-K1-1T7" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.45" id="46s-vf-0UF"/>
+                            <constraint firstItem="0Uf-K1-1T7" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="Jc8-xl-tOp"/>
+                            <constraint firstItem="0Uf-K1-1T7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LPb-bl-3gf"/>
+                            <constraint firstItem="0Uf-K1-1T7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LhD-VD-J7q"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TjU-wz-1h1" secondAttribute="bottom" id="PUn-TW-xxp"/>
+                            <constraint firstItem="TjU-wz-1h1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Wzl-OW-UA1"/>
+                            <constraint firstItem="TjU-wz-1h1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Y4B-hr-GnV"/>
+                            <constraint firstItem="0Uf-K1-1T7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="fWc-YD-c0g"/>
+                            <constraint firstItem="0Uf-K1-1T7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="fac-QL-8Co"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TjU-wz-1h1" secondAttribute="trailing" constant="-20" id="kx4-yf-Jri"/>
+                            <constraint firstItem="TjU-wz-1h1" firstAttribute="top" secondItem="0Uf-K1-1T7" secondAttribute="bottom" constant="20" id="uyh-SH-kzg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="LhD-VD-J7q"/>
+                                <exclude reference="fWc-YD-c0g"/>
+                                <exclude reference="31W-fB-8fE"/>
+                                <exclude reference="Y4B-hr-GnV"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="Jc8-xl-tOp"/>
+                                <exclude reference="LPb-bl-3gf"/>
+                                <include reference="LhD-VD-J7q"/>
+                                <include reference="fWc-YD-c0g"/>
+                                <exclude reference="fac-QL-8Co"/>
+                                <include reference="31W-fB-8fE"/>
+                                <exclude reference="Wzl-OW-UA1"/>
+                                <include reference="Y4B-hr-GnV"/>
+                                <exclude reference="uyh-SH-kzg"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="96.7016491754123" y="133.59999999999999"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cloud_sm" width="300" height="196"/>
+    </resources>
+</document>
